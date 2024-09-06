@@ -3,13 +3,13 @@ let dados = [
         humor: "Feliz",
         citacao: '"A verdadeira felicidade é encontrada, não na busca egoísta de prazer, mas no cumprimento do dever. Em fazer o bem aos outros, nossa própria felicidade é promovida."',
         referencia: "— Caminho a Cristo, p. 80",
-        tags: "felicidade alegria"
+        tags: "felicidade alegria bem"
     },
     {
         humor: "Triste",
         citacao: '"Os que têm suportado as maiores tristezas são frequentemente os que levam aos outros o maior conforto, introduzindo a luz do sol aonde quer que vão."',
         referencia: "— Mensagens Escolhidas, v. 2, p. 274",
-        tags: "tristeza"
+        tags: "tristeza mal"
     },
     {
         humor: "Raiva",
