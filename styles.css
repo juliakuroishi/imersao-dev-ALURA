@@ -1,0 +1,36 @@
+body {
+    background-color: #A9CCE3;
+    color: #333;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    width: 60%;
+    margin: 100px auto;
+}
+
+h1 {
+    color: #000;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  }
+  
+  #campo-pesquisa {
+    background-color: #F7E9B0;
+    width: 90%;
+    border-radius: 10px;
+    padding: 10px;
+    margin-bottom: 10px;
+  }
+  
+button {
+    background-color: #F2C2B7;
+    color: #000;
+    border-radius: 10px;
+    border: none;
+    width: 100px;
+    height: 30px;
+    padding: 5px;
+    font-size: 16px;
+    font-weight: 500;
+}
+
+button:hover{
+    background-color: #f1a998;
+}
