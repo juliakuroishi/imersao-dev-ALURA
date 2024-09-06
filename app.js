@@ -3,6 +3,7 @@ function pesquisar(){
     let frases = "";
     let campoPesquisa = document.getElementById("campo-pesquisa").value;
     campoPesquisa = campoPesquisa.toLowerCase();
+
     
     if (!campoPesquisa) {
         resposta.innerHTML = "<p>Desculpe, não foi encontrado nada. Tente outra emoção.</p>";
@@ -13,6 +14,7 @@ function pesquisar(){
      let humor = ""; 
      let citacao = "";
      let tags = "";
+     let encontrouResposta = false;
  
      // Itera sobre cada dado da lista de dados
      for (let dado of dados) {
@@ -21,7 +23,7 @@ function pesquisar(){
          tags = dado.tags.toLowerCase()
          // se titulo includes campoPesquisa
          if (humor.includes(campoPesquisa) || citacao.includes(campoPesquisa) || tags.includes(campoPesquisa)) {
-
+            encontrouResposta = true;
             frases += `
             <div>
                 <h2>${dado.humor}</h2>
@@ -29,11 +31,15 @@ function pesquisar(){
                 <p>${dado.referencia}</p>
             </div>
         `;
-        };
-        
+        } 
     };
+    if (encontrouResposta){
     resposta.innerHTML = frases;
-
+    }
+    else {
+        resposta.innerHTML = "Tente outra palavra! Que tal estas: Confiante, Apaixonado, Medo.";
+    }
+    
 } 
 
 
