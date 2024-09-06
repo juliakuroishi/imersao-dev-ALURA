@@ -1,4 +1,4 @@
-# imersao-dev-ALURA
+# Imersao-dev-ALURA
 
 Projeto desenvolvido durante a semana da Imersão Dev da Alura com Gemini.
 
